@@ -1,0 +1,12 @@
+name: my first Github-action
+
+on:
+  push:
+
+jobs:
+  test-jobs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: test
+        run: echo "test Github Action by Sanjana Das"
